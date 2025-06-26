@@ -1,0 +1,23 @@
+{
+  "name": "pay-tgether-gun",
+  "version": "1.0.0",
+  "description": "Gun Relay For tgether Pay web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Joe Leva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "gun": "^0.2020.1240",
+    "tgether-sdk-typescript": "^1.0.8",
+    "vitest": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29"
+  }
+}
